@@ -7,7 +7,7 @@ namespace Entities.Concrete
 {
     public class Car : IEntity
     {
-        public int CarId { get; set; }
+        public int CarId { get; set; } // arac id lerini burada tutuyoruz 
         public int BrandId { get; set; }
         public int ColorId { get; set; }
 
